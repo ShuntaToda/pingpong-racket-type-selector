@@ -16,7 +16,7 @@ export const Start: React.FC<Props> = ({ currentNode, setIsStart, setCurrentId }
     <Zoom in={currentNode ? true : false}>
       <Box>
         <Box paddingY={8}>
-          <Typography variant="h4" component={"h2"}>
+          <Typography variant="h5" component={"h2"}>
             {currentNode.text}
           </Typography>
         </Box>

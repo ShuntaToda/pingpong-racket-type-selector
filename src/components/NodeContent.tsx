@@ -22,7 +22,7 @@ export const NodeContent: React.FC<Props> = ({ currentNode, setCurrentId, setIsS
     <Zoom in={currentNode ? true : false} key={currentNode.id}>
       <Box>
         <Box paddingY={8}>
-          <Typography variant="h4" component={"h2"}>
+          <Typography variant="h5" component={"h2"}>
             {currentNode.text}
           </Typography>
         </Box>
