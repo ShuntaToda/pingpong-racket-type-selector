@@ -4,6 +4,7 @@ import { Start } from "./Start";
 import { NodeContent } from "./NodeContent";
 import { findNode } from "../utils/findNode";
 import { Node } from "../types/node";
+import { Answer } from "./Answer";
 
 export const Main = () => {
   const [currentId, setCurrentId] = useState<string>("A");
@@ -20,6 +21,8 @@ export const Main = () => {
       <Box marginY={8} textAlign={"center"}>
         {isStart === false ? (
           <Start currentNode={currentNode as Node} setIsStart={setIsStart} setCurrentId={setCurrentId} />
+        ) : currentNode?.type === "result" ? (
+          <Answer currentNode={currentNode as Node} setIsStart={setIsStart} />
         ) : (
           <NodeContent currentNode={currentNode as Node} setIsStart={setIsStart} setCurrentId={setCurrentId} />
         )}
