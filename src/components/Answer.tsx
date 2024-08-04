@@ -17,11 +17,20 @@ export const Answer: React.FC<Props> = ({ currentNode, setIsStart }) => {
           <Typography marginY={4} variant="h6" component={"p"}>
             あなたに合ったラケットとラバー
           </Typography>
-          {currentNode.text.split("\n").map((text, index) => (
-            <Typography key={index} variant="h5" paddingY={2} component={"p"}>
-              {text}
-            </Typography>
-          ))}
+          {currentNode.text.split("\n").map((text, index) => {
+            if (text.includes(",")) {
+              return text.split(",").map((t, i) => (
+                <Typography key={i} component={"p"}>
+                  {t}
+                </Typography>
+              ));
+            }
+            return (
+              <Typography key={index} paddingY={2} component={"p"}>
+                {text}
+              </Typography>
+            );
+          })}
         </Box>
         <Box>
           <Button size="large" color="warning" onClick={clickRetryBtn}>
