@@ -14,11 +14,11 @@ export const Answer: React.FC<Props> = ({ currentNode, setIsStart }) => {
     <Zoom in={currentNode ? true : false} key={currentNode.id}>
       <Box>
         <Box paddingY={8}>
-          <Typography variant="h4" component={"h2"}>
-            あなたへのおすすめのラケット
+          <Typography marginY={4} variant="h6" component={"p"}>
+            あなたに合ったラケットとラバー
           </Typography>
           {currentNode.text.split("\n").map((text, index) => (
-            <Typography key={index} variant="h6" component={"p"}>
+            <Typography key={index} variant="h5" paddingY={2} component={"p"}>
               {text}
             </Typography>
           ))}
