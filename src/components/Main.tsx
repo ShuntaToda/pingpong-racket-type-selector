@@ -4,6 +4,7 @@ import { FlowchartData, Node } from "../types/node";
 
 import flowchartJson from "../flowchartData.json";
 import { Start } from "./Start";
+import { NodeContent } from "./NodeContent";
 
 export const Main = () => {
   const typedFlowchartData: FlowchartData = {
@@ -24,7 +25,7 @@ export const Main = () => {
         {isStart === false ? (
           <Start currentNode={currentNode as Node} setIsStart={setIsStart} setCurrentId={setCurrentId} />
         ) : (
-          <Box>content</Box>
+          <NodeContent currentNode={currentNode as Node} setIsStart={setIsStart} setCurrentId={setCurrentId} />
         )}
       </Box>
     </Container>
