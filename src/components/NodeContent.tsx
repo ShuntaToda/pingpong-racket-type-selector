@@ -14,6 +14,10 @@ export const NodeContent: React.FC<Props> = ({ currentNode, setCurrentId, setIsS
   const clickOptionBtn = (option: { nextId: string; text: string }) => {
     setCurrentId(option.nextId);
   };
+
+  const clickRetryBtn = () => {
+    setIsStart(false);
+  };
   return (
     <Zoom in={currentNode ? true : false} key={currentNode.id}>
       <Box>
@@ -31,7 +35,9 @@ export const NodeContent: React.FC<Props> = ({ currentNode, setCurrentId, setIsS
                 </Button>
               ))
             ) : (
-              <Button color="warning">もう一度</Button>
+              <Button color="warning" onClick={clickRetryBtn}>
+                もう一度
+              </Button>
             )}
           </ButtonGroup>
         </Box>
