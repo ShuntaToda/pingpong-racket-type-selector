@@ -15,8 +15,13 @@ export const Answer: React.FC<Props> = ({ currentNode, setIsStart }) => {
       <Box>
         <Box paddingY={8}>
           <Typography variant="h4" component={"h2"}>
-            {currentNode.text}
+            あなたへのおすすめのラケット
           </Typography>
+          {currentNode.text.split("\n").map((text, index) => (
+            <Typography key={index} variant="h6" component={"p"}>
+              {text}
+            </Typography>
+          ))}
         </Box>
         <Box>
           <Button size="large" color="warning" onClick={clickRetryBtn}>
