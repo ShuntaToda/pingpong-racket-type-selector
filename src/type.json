@@ -1,0 +1,974 @@
+{
+  "nodes": [
+    {
+      "id": "A",
+      "text": "スタート",
+      "type": "start"
+    },
+    {
+      "id": "B",
+      "text": "プレイスタイル?",
+      "type": "question",
+      "options": [
+        {
+          "text": "攻撃的",
+          "nextId": "C"
+        },
+        {
+          "text": "守備的",
+          "nextId": "D"
+        },
+        {
+          "text": "オールラウンド",
+          "nextId": "E"
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "text": "主な攻撃方法?",
+      "type": "question",
+      "options": [
+        {
+          "text": "スマッシュ/ドライブ",
+          "nextId": "F"
+        },
+        {
+          "text": "スピン",
+          "nextId": "G"
+        },
+        {
+          "text": "ボレー",
+          "nextId": "H"
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "text": "得意なショット?",
+      "type": "question",
+      "options": [
+        {
+          "text": "ロブ",
+          "nextId": "I"
+        },
+        {
+          "text": "スライス",
+          "nextId": "J"
+        },
+        {
+          "text": "カウンター",
+          "nextId": "K"
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "text": "得意な場所?",
+      "type": "question",
+      "options": [
+        {
+          "text": "ベースライン",
+          "nextId": "L"
+        },
+        {
+          "text": "ネット際",
+          "nextId": "M"
+        },
+        {
+          "text": "どこでも",
+          "nextId": "N"
+        }
+      ]
+    },
+    {
+      "id": "F",
+      "text": "パワー重視?",
+      "type": "question",
+      "options": [
+        {
+          "text": "はい",
+          "nextId": "O"
+        },
+        {
+          "text": "いいえ",
+          "nextId": "P"
+        }
+      ]
+    },
+    {
+      "id": "G",
+      "text": "回転重視?",
+      "type": "question",
+      "options": [
+        {
+          "text": "はい",
+          "nextId": "Q"
+        },
+        {
+          "text": "いいえ",
+          "nextId": "R"
+        }
+      ]
+    },
+    {
+      "id": "H",
+      "text": "反応速度重視?",
+      "type": "question",
+      "options": [
+        {
+          "text": "はい",
+          "nextId": "S"
+        },
+        {
+          "text": "いいえ",
+          "nextId": "T"
+        }
+      ]
+    },
+    {
+      "id": "I",
+      "text": "高い打点重視?",
+      "type": "question",
+      "options": [
+        {
+          "text": "はい",
+          "nextId": "U"
+        },
+        {
+          "text": "いいえ",
+          "nextId": "V"
+        }
+      ]
+    },
+    {
+      "id": "J",
+      "text": "低い打点重視?",
+      "type": "question",
+      "options": [
+        {
+          "text": "はい",
+          "nextId": "W"
+        },
+        {
+          "text": "いいえ",
+          "nextId": "X"
+        }
+      ]
+    },
+    {
+      "id": "K",
+      "text": "安定性重視?",
+      "type": "question",
+      "options": [
+        {
+          "text": "はい",
+          "nextId": "Y"
+        },
+        {
+          "text": "いいえ",
+          "nextId": "Z"
+        }
+      ]
+    },
+    {
+      "id": "L",
+      "text": "オールコート性能?",
+      "type": "question",
+      "options": [
+        {
+          "text": "はい",
+          "nextId": "AA"
+        },
+        {
+          "text": "いいえ",
+          "nextId": "AB"
+        }
+      ]
+    },
+    {
+      "id": "M",
+      "text": "マニューバビリティ?",
+      "type": "question",
+      "options": [
+        {
+          "text": "はい",
+          "nextId": "AC"
+        },
+        {
+          "text": "いいえ",
+          "nextId": "AD"
+        }
+      ]
+    },
+    {
+      "id": "N",
+      "text": "バランス重視?",
+      "type": "question",
+      "options": [
+        {
+          "text": "はい",
+          "nextId": "AE"
+        },
+        {
+          "text": "いいえ",
+          "nextId": "AF"
+        }
+      ]
+    },
+    {
+      "id": "O",
+      "text": "重めの硬いラケット",
+      "type": "answer",
+      "nextId": "O1"
+    },
+    {
+      "id": "P",
+      "text": "中重量のラケット",
+      "type": "answer",
+      "nextId": "P1"
+    },
+    {
+      "id": "Q",
+      "text": "軽めのラケット",
+      "type": "answer",
+      "nextId": "Q1"
+    },
+    {
+      "id": "R",
+      "text": "中重量ラケット",
+      "type": "answer",
+      "nextId": "R1"
+    },
+    {
+      "id": "S",
+      "text": "超軽量ラケット",
+      "type": "answer",
+      "nextId": "S1"
+    },
+    {
+      "id": "T",
+      "text": "軽めのラケット",
+      "type": "answer",
+      "nextId": "T1"
+    },
+    {
+      "id": "U",
+      "text": "長めのラケット",
+      "type": "answer",
+      "nextId": "U1"
+    },
+    {
+      "id": "V",
+      "text": "標準サイズラケット",
+      "type": "answer",
+      "nextId": "V1"
+    },
+    {
+      "id": "W",
+      "text": "ヘッドライトラケット",
+      "type": "answer",
+      "nextId": "W1"
+    },
+    {
+      "id": "X",
+      "text": "バランス型ラケット",
+      "type": "answer",
+      "nextId": "X1"
+    },
+    {
+      "id": "Y",
+      "text": "ヘッドヘビーラケット",
+      "type": "answer",
+      "nextId": "Y1"
+    },
+    {
+      "id": "Z",
+      "text": "バランス型ラケット",
+      "type": "answer",
+      "nextId": "Z1"
+    },
+    {
+      "id": "AA",
+      "text": "オーバーサイズラケット",
+      "type": "answer",
+      "nextId": "AA1"
+    },
+    {
+      "id": "AB",
+      "text": "ミッドプラスサイズラケット",
+      "type": "answer",
+      "nextId": "AB1"
+    },
+    {
+      "id": "AC",
+      "text": "軽量コンパクトラケット",
+      "type": "answer",
+      "nextId": "AC1"
+    },
+    {
+      "id": "AD",
+      "text": "標準重量ラケット",
+      "type": "answer",
+      "nextId": "AD1"
+    },
+    {
+      "id": "AE",
+      "text": "中重量バランス型ラケット",
+      "type": "answer",
+      "nextId": "AE1"
+    },
+    {
+      "id": "AF",
+      "text": "個人の好みに応じてカスタマイズ",
+      "type": "answer",
+      "nextId": "AF1"
+    },
+    {
+      "id": "O1",
+      "text": "打球感重視?",
+      "type": "question",
+      "options": [
+        {
+          "text": "はい",
+          "nextId": "O2"
+        },
+        {
+          "text": "いいえ",
+          "nextId": "O3"
+        }
+      ]
+    },
+    {
+      "id": "P1",
+      "text": "スピンも重要?",
+      "type": "question",
+      "options": [
+        {
+          "text": "はい",
+          "nextId": "P2"
+        },
+        {
+          "text": "いいえ",
+          "nextId": "P3"
+        }
+      ]
+    },
+    {
+      "id": "Q1",
+      "text": "コントロールも必要?",
+      "type": "question",
+      "options": [
+        {
+          "text": "はい",
+          "nextId": "Q2"
+        },
+        {
+          "text": "いいえ",
+          "nextId": "Q3"
+        }
+      ]
+    },
+    {
+      "id": "R1",
+      "text": "得意なショットは?",
+      "type": "question",
+      "options": [
+        {
+          "text": "ドライブ",
+          "nextId": "R2"
+        },
+        {
+          "text": "カット",
+          "nextId": "R3"
+        }
+      ]
+    },
+    {
+      "id": "S1",
+      "text": "打球感重視?",
+      "type": "question",
+      "options": [
+        {
+          "text": "はい",
+          "nextId": "S2"
+        },
+        {
+          "text": "いいえ",
+          "nextId": "S3"
+        }
+      ]
+    },
+    {
+      "id": "T1",
+      "text": "コート面の変化に対応?",
+      "type": "question",
+      "options": [
+        {
+          "text": "はい",
+          "nextId": "T2"
+        },
+        {
+          "text": "いいえ",
+          "nextId": "T3"
+        }
+      ]
+    },
+    {
+      "id": "U1",
+      "text": "スピンの強さは?",
+      "type": "question",
+      "options": [
+        {
+          "text": "強い",
+          "nextId": "U2"
+        },
+        {
+          "text": "普通",
+          "nextId": "U3"
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "text": "返球の安定性は?",
+      "type": "question",
+      "options": [
+        {
+          "text": "高い",
+          "nextId": "V2"
+        },
+        {
+          "text": "普通",
+          "nextId": "V3"
+        }
+      ]
+    },
+    {
+      "id": "W1",
+      "text": "スピン重視?",
+      "type": "question",
+      "options": [
+        {
+          "text": "はい",
+          "nextId": "W2"
+        },
+        {
+          "text": "いいえ",
+          "nextId": "W3"
+        }
+      ]
+    },
+    {
+      "id": "X1",
+      "text": "適応力重視?",
+      "type": "question",
+      "options": [
+        {
+          "text": "はい",
+          "nextId": "X2"
+        },
+        {
+          "text": "いいえ",
+          "nextId": "X3"
+        }
+      ]
+    },
+    {
+      "id": "Y1",
+      "text": "スピード重視?",
+      "type": "question",
+      "options": [
+        {
+          "text": "はい",
+          "nextId": "Y2"
+        },
+        {
+          "text": "いいえ",
+          "nextId": "Y3"
+        }
+      ]
+    },
+    {
+      "id": "Z1",
+      "text": "打球感重視?",
+      "type": "question",
+      "options": [
+        {
+          "text": "はい",
+          "nextId": "Z2"
+        },
+        {
+          "text": "いいえ",
+          "nextId": "Z3"
+        }
+      ]
+    },
+    {
+      "id": "AA1",
+      "text": "バランス重視?",
+      "type": "question",
+      "options": [
+        {
+          "text": "はい",
+          "nextId": "AA2"
+        },
+        {
+          "text": "いいえ",
+          "nextId": "AA3"
+        }
+      ]
+    },
+    {
+      "id": "AB1",
+      "text": "特定面用?",
+      "type": "question",
+      "options": [
+        {
+          "text": "はい",
+          "nextId": "AB2"
+        },
+        {
+          "text": "いいえ",
+          "nextId": "AB3"
+        }
+      ]
+    },
+    {
+      "id": "AC1",
+      "text": "スピード重視?",
+      "type": "question",
+      "options": [
+        {
+          "text": "はい",
+          "nextId": "AC2"
+        },
+        {
+          "text": "いいえ",
+          "nextId": "AC3"
+        }
+      ]
+    },
+    {
+      "id": "AD1",
+      "text": "コントロール重視?",
+      "type": "question",
+      "options": [
+        {
+          "text": "はい",
+          "nextId": "AD2"
+        },
+        {
+          "text": "いいえ",
+          "nextId": "AD3"
+        }
+      ]
+    },
+    {
+      "id": "AE1",
+      "text": "オールラウンド性能?",
+      "type": "question",
+      "options": [
+        {
+          "text": "はい",
+          "nextId": "AE2"
+        },
+        {
+          "text": "いいえ",
+          "nextId": "AE3"
+        }
+      ]
+    },
+    {
+      "id": "AF1",
+      "text": "個別のニーズに応じて選択",
+      "type": "answer",
+      "nextId": "AF2"
+    },
+    {
+      "id": "O2",
+      "text": "高反発・厚めラバー",
+      "type": "answer",
+      "nextId": "AG"
+    },
+    {
+      "id": "O3",
+      "text": "超高反発ラバー",
+      "type": "answer",
+      "nextId": "AH"
+    },
+    {
+      "id": "P2",
+      "text": "高反発・高摩擦ラバー",
+      "type": "answer",
+      "nextId": "AI"
+    },
+    {
+      "id": "P3",
+      "text": "高反発・低摩擦ラバー",
+      "type": "answer",
+      "nextId": "AJ"
+    },
+    {
+      "id": "Q2",
+      "text": "高摩擦・中反発ラバー",
+      "type": "answer",
+      "nextId": "AK"
+    },
+    {
+      "id": "Q3",
+      "text": "超高摩擦ラバー",
+      "type": "answer",
+      "nextId": "AL"
+    },
+    {
+      "id": "R2",
+      "text": "中反発・高摩擦ラバー",
+      "type": "answer",
+      "nextId": "AM"
+    },
+    {
+      "id": "R3",
+      "text": "低反発・高摩擦ラバー",
+      "type": "answer",
+      "nextId": "AN"
+    },
+    {
+      "id": "S2",
+      "text": "薄めのラバー",
+      "type": "answer",
+      "nextId": "AO"
+    },
+    {
+      "id": "S3",
+      "text": "中程度の厚さのラバー",
+      "type": "answer",
+      "nextId": "AP"
+    },
+    {
+      "id": "T2",
+      "text": "オールラウンドラバー",
+      "type": "answer",
+      "nextId": "AQ"
+    },
+    {
+      "id": "T3",
+      "text": "特定面用ラバー",
+      "type": "answer",
+      "nextId": "AR"
+    },
+    {
+      "id": "U2",
+      "text": "長粒ラバー（OX）",
+      "type": "answer",
+      "nextId": "AS"
+    },
+    {
+      "id": "U3",
+      "text": "長粒ラバー（スポンジ付き）",
+      "type": "answer",
+      "nextId": "AT"
+    },
+    {
+      "id": "V2",
+      "text": "粒高ラバー",
+      "type": "answer",
+      "nextId": "AU"
+    },
+    {
+      "id": "V3",
+      "text": "中粒ラバー",
+      "type": "answer",
+      "nextId": "AV"
+    },
+    {
+      "id": "W2",
+      "text": "高摩擦ラバー",
+      "type": "answer",
+      "nextId": "AW"
+    },
+    {
+      "id": "W3",
+      "text": "中程度の摩擦ラバー",
+      "type": "answer",
+      "nextId": "AX"
+    },
+    {
+      "id": "X2",
+      "text": "オールラウンドラバー",
+      "type": "answer",
+      "nextId": "AY"
+    },
+    {
+      "id": "X3",
+      "text": "特定プレイスタイル用ラバー",
+      "type": "answer",
+      "nextId": "AZ"
+    },
+    {
+      "id": "Y2",
+      "text": "攻撃用アンチラバー",
+      "type": "answer",
+      "nextId": "BA"
+    },
+    {
+      "id": "Y3",
+      "text": "守備用アンチラバー",
+      "type": "answer",
+      "nextId": "BB"
+    },
+    {
+      "id": "Z2",
+      "text": "薄めのラバー",
+      "type": "answer",
+      "nextId": "BC"
+    },
+    {
+      "id": "Z3",
+      "text": "中程度の厚さのラバー",
+      "type": "answer",
+      "nextId": "BD"
+    },
+    {
+      "id": "AA2",
+      "text": "オールラウンドラバー",
+      "type": "answer",
+      "nextId": "BE"
+    },
+    {
+      "id": "AA3",
+      "text": "特化型ラバー",
+      "type": "answer",
+      "nextId": "BF"
+    },
+    {
+      "id": "AB2",
+      "text": "特定面用ラバー",
+      "type": "answer",
+      "nextId": "BG"
+    },
+    {
+      "id": "AB3",
+      "text": "汎用性の高いラバー",
+      "type": "answer",
+      "nextId": "BH"
+    },
+    {
+      "id": "AC2",
+      "text": "高反発・薄めラバー",
+      "type": "answer",
+      "nextId": "BI"
+    },
+    {
+      "id": "AC3",
+      "text": "中反発・薄めラバー",
+      "type": "answer",
+      "nextId": "BJ"
+    },
+    {
+      "id": "AD2",
+      "text": "中反発・中程度の厚さのラバー",
+      "type": "answer",
+      "nextId": "BK"
+    },
+    {
+      "id": "AD3",
+      "text": "高反発・中程度の厚さのラバー",
+      "type": "answer",
+      "nextId": "BL"
+    },
+    {
+      "id": "AE2",
+      "text": "オールラウンドラバー",
+      "type": "answer",
+      "nextId": "BM"
+    },
+    {
+      "id": "AE3",
+      "text": "バランス型特化ラバー",
+      "type": "answer",
+      "nextId": "BN"
+    },
+    {
+      "id": "AF2",
+      "text": "個別にカスタマイズされたラバー",
+      "type": "answer",
+      "nextId": "BO"
+    },
+    {
+      "id": "AG",
+      "text": "ラケット: 重め・硬い, ラバー: 高反発・厚め\nパワーと打球感のバランスが良い攻撃的セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "AH",
+      "text": "ラケット: 重め・硬い, ラバー: 超高反発\n最大パワーを発揮する攻撃的セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "AI",
+      "text": "ラケット: 中重量, ラバー: 高反発・高摩擦\nスピードとスピンを兼ね備えた攻撃的セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "AJ",
+      "text": "ラケット: 中重量, ラバー: 高反発・低摩擦\n純粋なスピード重視の攻撃的セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "AK",
+      "text": "ラケット: 軽め, ラバー: 高摩擦・中反発\nスピン重視でコントロールも良い攻撃的セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "AL",
+      "text": "ラケット: 軽め, ラバー: 超高摩擦\n最大スピンを生み出す攻撃的セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "AM",
+      "text": "ラケット: 中重量, ラバー: 中反発・高摩擦\nドライブに適したオールラウンド攻撃用セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "AN",
+      "text": "ラケット: 中重量, ラバー: 低反発・高摩擦\nカットに適したオールラウンド守備用セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "AO",
+      "text": "ラケット: 超軽量, ラバー: 薄め\n俊敏で繊細な打球感のネットプレイ用セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "AP",
+      "text": "ラケット: 軽め, ラバー: 中程度の厚さ\nバランスの取れたネットプレイ用セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "AQ",
+      "text": "ラケット: 軽め, ラバー: オールラウンド\n様々な状況に対応できるネットプレイ用セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "AR",
+      "text": "ラケット: 軽め, ラバー: 特定面用\n特定のプレイ環境に適したネットプレイ用セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "AS",
+      "text": "ラケット: 長め, ラバー: 長粒(OX)\n最大スピン変化を生む守備的セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "AT",
+      "text": "ラケット: 長め, ラバー: 長粒(スポンジ付き)\nコントロール重視の守備的セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "AU",
+      "text": "ラケット: 標準サイズ, ラバー: 粒高\n安定性重視の守備的セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "AV",
+      "text": "ラケット: 標準サイズ, ラバー: 中粒\nバランスの取れた守備的セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "AW",
+      "text": "ラケット: ヘッドライト, ラバー: 高摩擦\nスピン重視のスライス用セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "AX",
+      "text": "ラケット: ヘッドライト, ラバー: 中程度の摩擦\nコントロール重視のスライス用セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "AY",
+      "text": "ラケット: バランス型, ラバー: オールラウンド\n様々な守備スタイルに対応できるセットアップ",
+      "type": "result"
+    },
+    {
+      "id": "AZ",
+      "text": "ラケット: バランス型, ラバー: 特定スタイル用\n特定の守備スタイルに特化したセットアップ",
+      "type": "result"
+    },
+    {
+      "id": "BA",
+      "text": "ラケット: ヘッドヘビー, ラバー: 攻撃用アンチ\n攻撃的なカウンター用セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "BB",
+      "text": "ラケット: ヘッドヘビー, ラバー: 守備用アンチ\n守備的なカウンター用セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "BC",
+      "text": "ラケット: バランス型, ラバー: 薄め\n繊細な打球感のカウンター用セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "BD",
+      "text": "ラケット: バランス型, ラバー: 中程度の厚さ\nバランスの取れたカウンター用セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "BE",
+      "text": "ラケット: オーバーサイズ, ラバー: オールラウンド\nオールコート用のバランス型セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "BF",
+      "text": "ラケット: オーバーサイズ, ラバー: 特化型\nオールコート用の特定スタイル重視セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "BG",
+      "text": "ラケット: ミッドプラス, ラバー: 特定面用\n特定コートエリアに特化したセットアップ",
+      "type": "result"
+    },
+    {
+      "id": "BH",
+      "text": "ラケット: ミッドプラス, ラバー: 汎用性高\n特定エリアでも汎用性の高いセットアップ",
+      "type": "result"
+    },
+    {
+      "id": "BI",
+      "text": "ラケット: 軽量コンパクト, ラバー: 高反発・薄め\n高速・軽量なネットプレイ用セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "BJ",
+      "text": "ラケット: 軽量コンパクト, ラバー: 中反発・薄め\nコントロール重視のネットプレイ用セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "BK",
+      "text": "ラケット: 標準重量, ラバー: 中反発・中厚\nコントロール重視の標準的セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "BL",
+      "text": "ラケット: 標準重量, ラバー: 高反発・中厚\nパワー重視の標準的セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "BM",
+      "text": "ラケット: 中重量バランス型, ラバー: オールラウンド\n汎用性の高いオールラウンドセットアップ",
+      "type": "result"
+    },
+    {
+      "id": "BN",
+      "text": "ラケット: 中重量バランス型, ラバー: バランス型特化\nバランス重視の特化型セットアップ",
+      "type": "result"
+    },
+    {
+      "id": "BO",
+      "text": "ラケット・ラバー: 個別にカスタマイズ\nプレイヤーの特性に完全に合わせたセットアップ",
+      "type": "result"
+    }
+  ]
+}
