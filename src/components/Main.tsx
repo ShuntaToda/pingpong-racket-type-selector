@@ -1,15 +1,17 @@
-import { Box, Container, Typography, Zoom } from "@mui/material";
+import { Box, Container, Zoom } from "@mui/material";
 import { useState } from "react";
 import { FlowchartData, Node } from "../types/node";
 
 import flowchartJson from "../flowchartData.json";
+import { Start } from "./Start";
 
 export const Main = () => {
   const typedFlowchartData: FlowchartData = {
     nodes: [...flowchartJson.nodes] as Node[],
   };
   const nodes: Node[] = typedFlowchartData.nodes;
-  const [currentId, setCurrentId] = useState("A");
+  const [currentId, setCurrentId] = useState<string>("A");
+  const [isStart, setIsStart] = useState<boolean>(false);
 
   const findNode = (id: string): Node | undefined => {
     return nodes.find((item) => item.id === id);
@@ -18,14 +20,8 @@ export const Main = () => {
 
   return (
     <Container maxWidth="sm">
-      <Box marginY={8}>
-        <Zoom in={currentNode ? true : false}>
-          <Box>
-            <Typography variant="h4" component={"h2"}>
-              {currentNode ? currentNode.text : ""}
-            </Typography>
-          </Box>
-        </Zoom>
+      <Box marginY={8} textAlign={"center"}>
+        {isStart === false ? <Start currentNode={currentNode as Node} setIsStart={setIsStart} /> : <Box>content</Box>}
       </Box>
     </Container>
   );
