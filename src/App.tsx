@@ -2,6 +2,7 @@ import "@fontsource/roboto/400.css";
 import { Header } from "./components/Header";
 import { CssBaseline } from "@mui/material";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
+import { Main } from "./components/Main";
 
 function App() {
   const theme = createTheme({
@@ -23,6 +24,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Header />
+        <Main />
       </ThemeProvider>
     </>
   );
