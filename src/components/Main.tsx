@@ -1,5 +1,5 @@
 import { Box, Container } from "@mui/material";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FlowchartData, Node } from "../types/node";
 
 import flowchartJson from "../flowchartData.json";
@@ -13,6 +13,10 @@ export const Main = () => {
   const nodes: Node[] = typedFlowchartData.nodes;
   const [currentId, setCurrentId] = useState<string>("A");
   const [isStart, setIsStart] = useState<boolean>(false);
+
+  useEffect(() => {
+    if (isStart == false) setCurrentId("A");
+  }, [isStart]);
 
   const findNode = (id: string): Node | undefined => {
     return nodes.find((item) => item.id === id);
