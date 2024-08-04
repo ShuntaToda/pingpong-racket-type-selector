@@ -2,7 +2,7 @@
   "nodes": [
     {
       "id": "A",
-      "text": "スタート",
+      "text": "卓球ラケット選択",
       "type": "start",
       "nextId": "B"
     },
