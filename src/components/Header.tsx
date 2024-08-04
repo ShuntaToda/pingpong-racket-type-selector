@@ -6,7 +6,7 @@ export const Header = () => {
       <AppBar position="static">
         <Toolbar>
           <Typography
-            marginLeft={8}
+            marginLeft={3}
             paddingY={3}
             color={"white"}
             variant="h4"
