@@ -3,7 +3,8 @@
     {
       "id": "A",
       "text": "スタート",
-      "type": "start"
+      "type": "start",
+      "nextId": "B"
     },
     {
       "id": "B",
