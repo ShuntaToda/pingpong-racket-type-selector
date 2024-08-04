@@ -4,10 +4,12 @@ import { Node } from "../types/node";
 type Props = {
   currentNode: Node;
   setIsStart: (request: boolean) => void;
+  setCurrentId: (request: string) => void;
 };
 
-export const Start: React.FC<Props> = ({ currentNode, setIsStart }) => {
+export const Start: React.FC<Props> = ({ currentNode, setIsStart, setCurrentId }) => {
   const clickStartBtn = () => {
+    setCurrentId(currentNode.nextId!);
     setIsStart(true);
   };
   return (

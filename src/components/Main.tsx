@@ -1,4 +1,4 @@
-import { Box, Container, Zoom } from "@mui/material";
+import { Box, Container } from "@mui/material";
 import { useState } from "react";
 import { FlowchartData, Node } from "../types/node";
 
@@ -21,7 +21,11 @@ export const Main = () => {
   return (
     <Container maxWidth="sm">
       <Box marginY={8} textAlign={"center"}>
-        {isStart === false ? <Start currentNode={currentNode as Node} setIsStart={setIsStart} /> : <Box>content</Box>}
+        {isStart === false ? (
+          <Start currentNode={currentNode as Node} setIsStart={setIsStart} setCurrentId={setCurrentId} />
+        ) : (
+          <Box>content</Box>
+        )}
       </Box>
     </Container>
   );
